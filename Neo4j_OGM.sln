@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neo4j_OGM", "Neo4j_OGM\Neo4j_OGM.csproj", "{0DC0EE9F-4991-461A-B46F-49F6C9B0881A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neo4j_OGM_UnitTests", "Neo4j_OGM_UnitTests\Neo4j_OGM_UnitTests.csproj", "{69C08670-BD9E-46E7-9DD0-C664DDB952F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neo4j_OGM_IntegrationTests", "Neo4j_OGM_IntegrationTests\Neo4j_OGM_IntegrationTests.csproj", "{4FE824B3-9E25-4C93-90DA-3C34B915C7C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DC0EE9F-4991-461A-B46F-49F6C9B0881A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC0EE9F-4991-461A-B46F-49F6C9B0881A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC0EE9F-4991-461A-B46F-49F6C9B0881A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC0EE9F-4991-461A-B46F-49F6C9B0881A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69C08670-BD9E-46E7-9DD0-C664DDB952F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C08670-BD9E-46E7-9DD0-C664DDB952F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C08670-BD9E-46E7-9DD0-C664DDB952F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C08670-BD9E-46E7-9DD0-C664DDB952F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FE824B3-9E25-4C93-90DA-3C34B915C7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE824B3-9E25-4C93-90DA-3C34B915C7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE824B3-9E25-4C93-90DA-3C34B915C7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE824B3-9E25-4C93-90DA-3C34B915C7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

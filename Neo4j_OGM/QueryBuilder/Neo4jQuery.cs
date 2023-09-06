@@ -1,6 +1,6 @@
 ﻿using Neo4j.Driver;
 
-namespace TMC.Infrastructure.Neo4j.QueryBuilder;
+namespace Neo4j_OGM.QueryBuilder;
 
 public class Neo4jQuery : Query
 {

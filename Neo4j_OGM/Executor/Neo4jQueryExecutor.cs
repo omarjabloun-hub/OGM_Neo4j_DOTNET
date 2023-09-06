@@ -1,10 +1,9 @@
-﻿using Neo4j.Driver;
-using TMC.Domain.Entities;
-using TMC.Domain.Exceptions;
-using TMC.Infrastructure.Data.RecordToObject;
-using TMC.Infrastructure.Pagination;
+﻿using Neo4j_OGM.Entities;
+using Neo4j_OGM.Exceptions;
+using Neo4j_OGM.Mapper;
+using Neo4j.Driver;
 
-namespace TMC.Infrastructure.Neo4j;
+namespace Neo4j_OGM.Executor;
 
 public class Neo4jQueryExecutor : INeo4jQueryExecutor
 {

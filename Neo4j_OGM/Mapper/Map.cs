@@ -1,8 +1,7 @@
+using Neo4j_OGM.Entities;
 using Neo4j.Driver;
-using TMC.Domain.Entities;
-using TMC.Infrastructure.Pagination;
 
-namespace TMC.Infrastructure.Data.RecordToObject;
+namespace Neo4j_OGM.Mapper;
 
 public static class MapEntity
 {

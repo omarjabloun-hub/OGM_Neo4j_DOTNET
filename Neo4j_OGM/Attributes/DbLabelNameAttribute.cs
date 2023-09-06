@@ -1,4 +1,4 @@
-﻿namespace TMC.Domain.Attributes;
+﻿namespace Neo4j_OGM.Attributes;
 
 [AttributeUsage(AttributeTargets.Class, Inherited = false)]
 public class DbLabelNameAttribute : Attribute

@@ -1,4 +1,4 @@
-﻿namespace TMC.Domain.Attributes;
+﻿namespace Neo4j_OGM.Attributes;
 
 [AttributeUsage(AttributeTargets.Property)]
 public class DbPropertyNameAttribute : Attribute

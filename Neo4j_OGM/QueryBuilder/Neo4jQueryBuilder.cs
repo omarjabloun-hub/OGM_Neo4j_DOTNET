@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
-using TMC.Domain.Attributes;
-using TMC.Domain.Entities;
+using Neo4j_OGM.Attributes;
+using Neo4j_OGM.Entities;
 
-namespace TMC.Infrastructure.Neo4j.QueryBuilder;
+namespace Neo4j_OGM.QueryBuilder;
 
 public class Neo4jQueryBuilder<T> where T : EntityBase<T>
 {

@@ -1,6 +1,4 @@
-using TMC.Domain.Entities;
-
-namespace TMC.Infrastructure.Pagination;
+namespace Neo4j_OGM.Entities;
 
 public class Pagination<T> where T : EntityBase<T>
 {

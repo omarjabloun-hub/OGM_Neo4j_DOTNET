@@ -1,8 +1,7 @@
-﻿using Neo4j.Driver;
-using TMC.Domain.Entities;
-using TMC.Infrastructure.Pagination;
+﻿using Neo4j_OGM.Entities;
+using Neo4j.Driver;
 
-namespace TMC.Infrastructure.Neo4j;
+namespace Neo4j_OGM.Executor;
 
 public interface INeo4jQueryExecutor : IDisposable, IAsyncDisposable
 {

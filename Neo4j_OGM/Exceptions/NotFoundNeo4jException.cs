@@ -1,4 +1,4 @@
-﻿namespace TMC.Domain.Exceptions;
+﻿namespace Neo4j_OGM.Exceptions;
 
 public class NotFoundNeo4jException : Exception
 {
